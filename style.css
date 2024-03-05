@@ -1,0 +1,154 @@
+.our {
+  text-align: center;
+}
+
+.icons {
+  color: #941303;
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.btn-1 {
+  border-radius: 30px !important;
+  padding: 5px !important;
+  margin: 5px !important;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+.card {
+  border-radius: 65px !important;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+.card-body {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover .card-body {
+  display: block;
+  transform: translateY(0);
+}
+
+footer {
+  background-color: #941303;
+  color: white;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.col p {
+  margin-top: 10px;
+}
+
+.quick-links ul,
+.social-media ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+.quick-links li,
+.social-media li {
+  margin-bottom: 5px;
+}
+
+.quick-links ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quick-links li {
+  margin-right: 10px;
+}
+
+.quick-links li:last-child {
+  margin-right: 0;
+}
+
+.quick-links a {
+  display: inline-block;
+  text-decoration: none !important;
+  width: 100%;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+.quick-links a.facebook {
+  background-color: #3b5998;
+}
+
+.quick-links a.twitter {
+  background-color: #1da1f2;
+}
+
+.quick-links a.instagram {
+  background-color: #e4405f;
+}
+
+.quick-links a.youtube {
+  background-color: #ff0000;
+}
+
+.quick-links a.whatsapp {
+  background-color: #25d366;
+}
+
+.quick-links a.telegram {
+  background-color: #0088cc;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bottom-row .disclaimer,
+.bottom-row .copyright {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .quick-links ul,
+  .social-media ul {
+    text-align: center;
+  }
+}
